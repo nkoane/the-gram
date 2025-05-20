@@ -1,6 +1,7 @@
 body {
   background-color: #f88;
 }
+
 main {
   width: 60vw;
   margin: 100px auto 0 auto;
@@ -14,8 +15,5 @@ div#left {
   height: 90px;
   aspect-ratio: 1;
   border-radius: 100%;
-  background-image: url('https://api.dicebear.com/9.x/pixel-art/svg?seed=thobile');
-}
-
-div#right {
+  background-image: url("https://api.dicebear.com/9.x/pixel-art/svg?seed=thobile");
 }
