@@ -15,5 +15,10 @@ div#left {
   height: 90px;
   aspect-ratio: 1;
   border-radius: 100%;
-  background-image: url("https://api.dicebear.com/9.x/pixel-art/svg?seed=thobile");
+  background-image: url('images/avatar.jpg');
+  background-size: cover;
+}
+
+div#right {
+  background-color: #fff;
 }
