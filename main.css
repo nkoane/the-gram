@@ -1,5 +1,5 @@
 body {
-  background-color: #f88;
+  background-color: #f0f0f0;
 }
 
 main {
@@ -7,18 +7,36 @@ main {
   margin: 100px auto 0 auto;
   display: grid;
   grid-template-columns: 90px 1fr;
-  gap: 1rem;
+  gap: 2rem;
 }
 
-div#left {
+div#avatar {
   background-color: #88f;
   height: 90px;
   aspect-ratio: 1;
   border-radius: 100%;
-  background-image: url('images/avatar.jpg');
+  background-image: url("images/avatar.jpg");
   background-size: cover;
+  border: 0.5rem solid white;
 }
 
-div#right {
-  background-color: #fff;
+div#bio ul {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  margin: 0 0 2rem 0;
+  padding: 0;
+}
+
+div#bio ol {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+  list-style: none;
+}
+
+div#bio ol li a img {
+  width: 100%;
 }
